@@ -12,17 +12,16 @@
         <th>Id</th>
         <th>Title</th>
         <th>Date</th>
-        <tr>
-            <td>1</td>
-            <td>Greeting</td>
-            <td>11/12/2023</td>
-
-        </tr>
+        <th>Image</th>
+       
     {% for post in content%}
         <tr>
             <td>{{post.id}}</td>
             <td>{{post.title}}</td>
             <td>{{post.date}}</td>
+            <td>
+                <img src="{% static post.image %}" alt="Giving Help">
+            </td>
         </tr>
         {% endfor %}
     </table>

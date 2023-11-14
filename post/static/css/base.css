@@ -4,3 +4,11 @@ th, td {
     padding-left: 40px;
     padding-right: 40px;
 }
+img{
+    width: 150px;
+    height: 150px;
+}
+
+table{
+    border-collapse: collapse;
+}
